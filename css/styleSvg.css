@@ -1,0 +1,29 @@
+@keyframes fanRotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+#sv1,
+#sv2,
+#sv3,
+#sv4,
+#sv5,
+#sv6,
+#sv7,
+#sv8,
+#sv9,
+#sv10,
+#sv11,
+#sv12,
+#sv13,
+#sv14,
+#sv15,
+#sv16,
+#sv19 {
+    animation: fanRotate 1s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
