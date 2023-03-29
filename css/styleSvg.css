@@ -22,8 +22,9 @@
 #sv14,
 #sv15,
 #sv16,
-#sv19 {
-    animation: fanRotate 1s linear infinite;
+#sv19,
+#g34208 {
+    animation: fanRotate 1.5s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
